@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="NotificationForwarder.Tests/NotificationForwarder.Tests.csproj" />
   <Project Path="NotificationForwarder/NotificationForwarder.csproj" />
 </Solution>
