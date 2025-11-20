@@ -7,9 +7,18 @@ There are no more detailed requirements, so feel free to use your creativity.
 Implementation:
 This is a web app written in C# with dotnet. I used the latest versions: C# 12 and .net 8.
 I used ASP.NET Core for creating the controller and Swagger to be able to interact with it.
-The app offers a controller as an entry point to the app. The controller calls a service that filters the requests.
+
+The app offers a controller as an entry point to the app. 
+
+The controller calls a service that filters the requests.
+
+
 The requests that match the condition (type Warning) are written to a file.
+
+
 Writing to a file is put behind a repository so that it can be switched with another service in the future.
+
+
 The file where we do the writes is called "forwarded_notifications.txt" and it can be found in the root of the code.
 
 Running the app:
