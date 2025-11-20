@@ -36,5 +36,13 @@ Tests are in progress. I plan to have 2 types:
 - unit tests, where I test each class individually
 - end to end tests - where I send POST requests to the controller and then check the info was written in the output file
 
+End to end tests were written mainly with copilot. The tests spin up an in memory instance of the web app and then make POST requests to it.
 
+How to start them: go to Test Explorer and run:
+<img width="693" height="480" alt="image" src="https://github.com/user-attachments/assets/3c73716e-1ac2-4df5-9c13-d54f52e6bf4b" />
+
+
+They check writes were done to the output file and the values written. They also test a negative scenario (wrong notification type)
+
+More ideas for tests: append scenarios, missing mandatory fields.
 
